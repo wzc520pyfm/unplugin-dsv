@@ -106,3 +106,11 @@ build({
 ```
 
 <br></details>
+
+## Usage
+
+### Options
+
+For all options please refer to [docs](https://github.com/rollup/plugins/tree/master/packages/dsv#options).
+
+This plugin accepts all [@rollup/plugin-dsv](https://github.com/rollup/plugins/tree/master/packages/dsv#options) options.
