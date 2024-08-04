@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/unplugin-dsv?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-dsv)
 
-Starter template for [unplugin](https://github.com/unjs/unplugin).
+🍣 A universal bundler plugin which converts `.csv` and `.tsv` files into JavaScript modules with [d3-dsv](https://github.com/d3/d3-dsv).
 
 ## Install
 
