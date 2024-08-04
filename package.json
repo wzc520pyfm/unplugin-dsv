@@ -1,17 +1,17 @@
 {
-  "name": "unplugin-starter",
+  "name": "unplugin-dsv",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@8.6.12",
   "description": "",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/wzc520pyfm/unplugin-dsv#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/wzc520pyfm/unplugin-dsv.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/wzc520pyfm/unplugin-dsv/issues"
   },
   "keywords": [
     "unplugin",
@@ -122,12 +122,15 @@
     }
   },
   "dependencies": {
-    "unplugin": "^1.5.1"
+    "d3-dsv": "^3.0.1",
+    "tosource": "2.0.0-alpha.3",
+    "unplugin": "^1.12.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.2.2",
     "@nuxt/kit": "^3.8.2",
     "@nuxt/schema": "^3.8.2",
+    "@types/d3-dsv": "^3.0.7",
     "@types/node": "^20.10.3",
     "bumpp": "^9.2.0",
     "chalk": "^5.3.0",

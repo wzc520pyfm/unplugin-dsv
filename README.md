@@ -1,28 +1,13 @@
-# unplugin-starter
+# unplugin-dsv
 
-[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)
+[![NPM version](https://img.shields.io/npm/v/unplugin-dsv?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-dsv)
 
 Starter template for [unplugin](https://github.com/unjs/unplugin).
-
-## Template Usage
-
-To use this template, clone it down using:
-
-```bash
-npx degit unplugin/unplugin-starter my-unplugin
-```
-
-And do a global replacement of `unplugin-starter` with your plugin name.
-
-Then you can start developing your unplugin 🔥
-
-To test your plugin, run: `pnpm run dev`
-To release a new version, run: `pnpm run release`
 
 ## Install
 
 ```bash
-npm i unplugin-starter
+npm i unplugin-dsv
 ```
 
 <details>
@@ -30,11 +15,11 @@ npm i unplugin-starter
 
 ```ts
 // vite.config.ts
-import Starter from 'unplugin-starter/vite'
+import UnpluginDsv from 'unplugin-dsv/vite'
 
 export default defineConfig({
   plugins: [
-    Starter({ /* options */ }),
+    UnpluginDsv({ /* options */ }),
   ],
 })
 ```
@@ -48,11 +33,11 @@ Example: [`playground/`](./playground/)
 
 ```ts
 // rollup.config.js
-import Starter from 'unplugin-starter/rollup'
+import UnpluginDsv from 'unplugin-dsv/rollup'
 
 export default {
   plugins: [
-    Starter({ /* options */ }),
+    UnpluginDsv({ /* options */ }),
   ],
 }
 ```
@@ -68,7 +53,7 @@ export default {
 module.exports = {
   /* ... */
   plugins: [
-    require('unplugin-starter/webpack')({ /* options */ })
+    require('unplugin-dsv/webpack')({ /* options */ })
   ]
 }
 ```
@@ -82,7 +67,7 @@ module.exports = {
 // nuxt.config.js
 export default defineNuxtConfig({
   modules: [
-    ['unplugin-starter/nuxt', { /* options */ }],
+    ['unplugin-dsv/nuxt', { /* options */ }],
   ],
 })
 ```
@@ -99,7 +84,7 @@ export default defineNuxtConfig({
 module.exports = {
   configureWebpack: {
     plugins: [
-      require('unplugin-starter/webpack')({ /* options */ }),
+      require('unplugin-dsv/webpack')({ /* options */ }),
     ],
   },
 }
@@ -113,10 +98,10 @@ module.exports = {
 ```ts
 // esbuild.config.js
 import { build } from 'esbuild'
-import Starter from 'unplugin-starter/esbuild'
+import UnpluginDsv from 'unplugin-dsv/esbuild'
 
 build({
-  plugins: [Starter()],
+  plugins: [UnpluginDsv()],
 })
 ```
 
