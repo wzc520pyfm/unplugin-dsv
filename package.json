@@ -1,7 +1,7 @@
 {
   "name": "unplugin-dsv",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "packageManager": "pnpm@8.6.12",
   "description": "🍣 A universal bundler plugin which converts `.csv` and `.tsv` files into JavaScript modules with [d3-dsv](https://github.com/d3/d3-dsv).",
   "license": "MIT",
