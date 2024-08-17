@@ -114,3 +114,17 @@ build({
 For all options please refer to [docs](https://github.com/rollup/plugins/tree/master/packages/dsv#options).
 
 This plugin accepts all [@rollup/plugin-dsv](https://github.com/rollup/plugins/tree/master/packages/dsv#options) options.
+
+### TypeScript
+
+If you are using TypeScript, you need to add the following to your `tsconfig.json` file:
+
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "unplugin-dsv/dsv-types"
+    ]
+  }
+}
+```
